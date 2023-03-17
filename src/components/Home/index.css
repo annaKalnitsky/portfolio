@@ -1,0 +1,77 @@
+.main-wrapper {
+    background-color: #F1E068;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 100vh;
+   
+}
+
+.container{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.main-picture{
+    width: 385px;
+    height: 358px;
+}
+
+.main-hello{
+    text-transform: uppercase;
+    color: #222529;
+}
+
+.main-title {
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-title p {
+    margin-bottom: 1rem;
+}
+
+.main-title span {
+    font-weight: 300;
+}
+
+.main-info {
+max-width: 540px;
+margin-left: 2rem;
+}
+
+.main-btn{
+    margin-top: 2rem;
+}
+
+.about-btn {
+    padding: 14px 30px;
+    background-color: #222529;
+    color: #F1E068;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.btn-icon {
+    margin-right: 0.5rem;
+}
+
+.portfolio-btn{
+    padding: 12px 45px;
+    background-color: transparent;
+    color: #222529;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #222529;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    }
+
+ 

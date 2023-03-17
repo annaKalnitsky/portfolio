@@ -3,6 +3,7 @@ import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contacts from './components/Contacts/Contacts';
 import { Routes, Route } from 'react-router-dom';
+import './index.css';
 
 function App() {
   return (

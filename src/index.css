@@ -1,0 +1,18 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+color: #222529;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}

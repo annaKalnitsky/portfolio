@@ -3,6 +3,8 @@ import './index.css';
 import { FaUser, FaSuitcase } from 'react-icons/fa';
 import mainPic from '../../utils/mainPic.png';
 import { Link } from 'react-router-dom';
+import MainBtn from '../Buttons/MainBtn';
+import SecondaryBtn from '../Buttons/SecondaryBtn';
 
 const Home = () => {
   return (
@@ -30,18 +32,8 @@ const Home = () => {
             are completed on time and to the highest standards.
           </p>
           <div className="main-btn">
-            <Link to="/about" className="about-btn">
-              <i className="btn-icon">
-                <FaUser />
-              </i>
-              <span>More about me</span>
-            </Link>
-            <Link to="/portfolio" className="portfolio-btn">
-              <i className="btn-icon">
-                <FaSuitcase />
-              </i>
-              <span>Portfolio</span>
-            </Link>
+            <MainBtn link={'/about'} icon={<FaUser />} text={'More about me'} />
+            <SecondaryBtn link={'/portfolio'} icon={<FaSuitcase />} text={'Portfolio'} />
           </div>
         </div>
       </div>

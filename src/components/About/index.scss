@@ -1,0 +1,78 @@
+.about-container {
+    background-color: #F1E068;
+    color: #222529;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.about-header {
+    display: flex;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+
+    span {
+        font-weight: 300;
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+  p::before,
+  p::after {
+      display: inline-block;
+      content: '';
+      width: 2rem;
+      height: 2px;
+      margin: 0 1rem;
+      background-color: #222529;
+     
+      
+  }
+}
+
+.about-info
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+img {
+    position: relative;
+    z-index: 1;
+}
+}
+
+
+.about-info__data-item{
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.data-wrapper {
+    display: flex;
+}
+
+.info-bold {
+    font-weight: 700;
+    margin-right: 2rem;
+   
+}
+
+.about-info__CV-btn {
+    margin: 1rem 3rem ;
+}
+
+
+

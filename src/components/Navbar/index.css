@@ -1,0 +1,91 @@
+.navbar-container {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 100;
+}
+
+.navbar__menu-button {
+    width: 61px;
+    height: 61px;
+    background-color: #22252926;
+    color: #222529;
+    border: 1px solid #222529;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__menu-button.expanded{
+    border-radius: 50% 50% 0 0 ;
+    border-bottom: none;
+}
+
+.navbar__items {
+    display: flex;
+}
+
+.menu-button__icon {
+    width: 16px;
+    height: 16px;
+}
+
+.navbar__icons {
+    width: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid #222529;
+    border-top: none;
+    background-color: #22252926;
+    border-radius: 0 0 50px 50px;
+    padding-bottom: 1rem;
+}
+
+.navbar__icons:hover{
+color: #fff;
+}
+
+.navbar__links-icon {
+    color: #000;
+}
+
+.navbar__links-icon:hover{
+color:#fff;
+}
+
+.navbar__icons:first-child{
+padding-top: 1rem;
+}
+
+
+
+.navbar__text {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+            gap: 2rem;
+            padding-top: 0.9rem;
+            margin-left: 0.8rem;
+            align-items: left;
+            
+}
+
+.navbar__links-text {
+color: #000;
+}
+
+.navbar__links-text:hover{
+    color:#fff;
+    
+}
+
+
+
